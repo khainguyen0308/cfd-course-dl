@@ -10,7 +10,7 @@ import useQuery from "../../hooks/useQuery";
 import { useParams } from "react-router-dom";
 import { formatCurrency, formatDate } from "../../utils/format";
 import { ROLES } from "../../constants/role";
-import HeroSection from "./heroSection";
+import HeroSection from "./HeroSection";
 import HeaderTop from "../../components/HeaderTop";
 
 const CourseDetailPage = () => {
